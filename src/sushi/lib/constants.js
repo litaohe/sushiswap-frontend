@@ -21,7 +21,7 @@ export const INTEGERS = {
   ), // 2**256-1
   INTEREST_RATE_BASE: new BigNumber('1e18'),
 }
-
+/*
 export const addressMap = {
   uniswapFactory: '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95',
   uniswapFactoryV2: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
@@ -37,16 +37,16 @@ export const addressMap = {
   LEND: '0x80fB784B7eD66730e8b1DBd9820aFD29931aab03',
   SUSHIYCRV: '0x2C7a51A357d5739C5C74Bf3C96816849d2c9F726',
 }
-
+*/
 export const contractAddresses = {
   sushi: {
-    1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+    3: '0x5E55334ce6d3cdA09A434339f513e066DB33EbF2', //'0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
   },
   masterChef: {
-    1: '0xc2edad668740f1aa35e4d8f227fb8e17dca888cd',
+    3: '0x1Bff8FB9C5B41764702bfa1d10D8CC96A8eaF0bA', //'0xc2edad668740f1aa35e4d8f227fb8e17dca888cd',
   },
   weth: {
-    1: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    3: '0x082872CD260B9c01603D3c930F151B3e3b5f0090', //'0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
   },
 }
 
@@ -70,18 +70,19 @@ UNI-V2 LP Address on mainnet for reference
 
 export const supportedPools = [
   {
-    pid: 12,
+    pid: 0,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      3: '0xDC7fA840c170442A1FFf1Bb82B50E753F9f393CE', //'0xce84867c3c02b05dc570d0135103d3fb9cc19433',
     },
     tokenAddresses: {
-      1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+      3: '0x5E55334ce6d3cdA09A434339f513e066DB33EbF2', //'0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
-    name: 'Sushi Party!',
-    symbol: 'SUSHI-ETH UNI-V2 LP',
-    tokenSymbol: 'SUSHI',
+    name: 'USDT Party!',
+    symbol: 'USDT',
+    tokenSymbol: 'LOBSTER',
     icon: '🍣',
   },
+    /*
   {
     pid: 0,
     lpAddresses: {
@@ -303,4 +304,6 @@ export const supportedPools = [
     tokenSymbol: 'CRV',
     icon: '🐊',
   },
+
+     */
 ]
