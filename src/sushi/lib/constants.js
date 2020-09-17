@@ -40,10 +40,10 @@ export const addressMap = {
 */
 export const contractAddresses = {
   sushi: {
-    3: '0x5E55334ce6d3cdA09A434339f513e066DB33EbF2', //'0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+    3: '0x8f04c134bc00Ab9b3ad45f4B3D91dF3096419E68', //'0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
   },
   masterChef: {
-    3: '0x1Bff8FB9C5B41764702bfa1d10D8CC96A8eaF0bA', //'0xc2edad668740f1aa35e4d8f227fb8e17dca888cd',
+    3: '0x3628bb9e7c26377B19053c33f095E0bC8de5093C', //'0xc2edad668740f1aa35e4d8f227fb8e17dca888cd',
   },
   weth: {
     3: '0x082872CD260B9c01603D3c930F151B3e3b5f0090', //'0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
@@ -75,7 +75,7 @@ export const supportedPools = [
       3: '0xDC7fA840c170442A1FFf1Bb82B50E753F9f393CE', //'0xce84867c3c02b05dc570d0135103d3fb9cc19433',
     },
     tokenAddresses: {
-      3: '0x5E55334ce6d3cdA09A434339f513e066DB33EbF2', //'0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+      3: '0x8f04c134bc00Ab9b3ad45f4B3D91dF3096419E68', //'0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
     name: 'USDT Party!',
     symbol: 'USDT',
